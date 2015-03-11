@@ -4,6 +4,7 @@ function number_list(maxNumber)
 	for(var n = 1; n<=maxNumber ; n++)
 	{
 		numbers.push(n);
+		numbers
 	}
 	return  numbers;
 }
