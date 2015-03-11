@@ -1,0 +1,53 @@
+TestMyCode.run("testing hello world function", function(assert){
+    var result = helloWorld("hello world");
+    // is the result as we expected?
+    assert.equals("hello world", result);
+});
+TestMyCode.run("testing hello world function", function(assert){
+    var result = hello_uppercase("lindani");
+    // is the result as we expected?
+    assert.equals("Hello LINDANI!", result);
+});
+TestMyCode.run("testing hello world function", function(assert){
+    var result = hello_joe("lindani!");
+    // is the result as we expected?
+    assert.equals("Hello lindani!", result);
+});
+
+
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = helloWorld();
+//     // is the result as we expected?
+//     assert.equals("hello world!", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = helloWorld();
+//     // is the result as we expected?
+//     assert.equals("hello world!", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = helloWorld();
+//     // is the result as we expected?
+//     assert.equals("hello world!", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = helloWorld();
+//     // is the result as we expected?
+//     assert.equals("hello world!", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = helloWorld();
+//     // is the result as we expected?
+//     assert.equals("hello world", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = hello();
+//     // is the result as we expected?
+//     assert.equals("hello world", result);
+// });
+// TestMyCode.run("testing hello world function", function(assert){
+//     var result = hello_uppercase("lindani");
+//     // is the result as we expected?
+//     assert.equals("hello LINDANI", result);
+// });
