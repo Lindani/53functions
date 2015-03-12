@@ -28,3 +28,21 @@ test("testing hello_sum function", function(assert){
     var result = number_sum(6);
     equal(result.toString(), [21].toString());
 });
+test("testing length function", function(assert){
+    var result = length("lindani");
+    equal(result, 7);
+});
+test("testing uppercase function", function(assert){
+    var result = uppercase("lindani");
+    equal(result, "LINDANI");
+});
+
+test("testing reverseName function", function(assert){
+    var result = reverseName("lindani");
+    equal(result, "inadnil");
+});
+test("testing hello_list function", function(assert){
+    var result = hello_list(1);
+    equal(result, "hello world");
+});
+

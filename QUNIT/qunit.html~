@@ -13,7 +13,11 @@
 <script src="hello_uppercase.js"></script>
 <script src="hello_joe.js"></script>
 <script src="number_list.js"></script>
-<script src="number_list.js"></script>
+<script src="number_sum.js"></script>
+<script src="length.js"></script>
+<script src="uppercase.js"></script>
+<script src="reverseName.js"></script>
+<script src="hello_list.js"></script>
 <script src="tests.js"></script>
 </body>
 </html>
