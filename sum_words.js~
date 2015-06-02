@@ -1,0 +1,5 @@
+function sum_words(words)
+{	
+	var words2 = words.split(" ")
+	return eval(words2.join("").length);
+}

@@ -1,0 +1,9 @@
+function word_length(words)
+{
+
+	var splitWords = words.split(" ");
+  	var sumAlphabets = splitWords.join("").length;
+  	var sumWords = splitWords.length;
+  	var average =sumAlphabets/sumWords;
+	console.log("Lower average is " + Math.floor(average) + " and Upper average is " + Math.ceil(average));
+}
